@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+.container{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(119, 107, 93, 0.4);
+    backdrop-filter: blur(15px);
+    height: 100px;
+    width: 100%;
+}
+.logo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100%;
+}
+.logo a img{
+    height: 70px;
+}
+.searchbar{
+    height: 100%;
+    width: 1100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.searchbar form{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    height: 40px;
+    border-radius: 12px;
+}
+.searchbar form input{
+    outline: none;
+    border: none;
+    height: 70%;
+    margin-left: 5px;
+    padding-left: 20px;
+    width: 650px;
+}
+.searchbar form button{
+    height: 80%;
+    width: 100px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dbd2c3;
+    cursor: pointer;
+}
+.searchbar form button:hover{
+    background-color: #776B5D;
+}
+.searchbar form button img{
+    height: 50%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 100%;
+}
+.buttons #burger a{
+    text-decoration: none;
+    background-color: #F3EEEA;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    color: #776B5D;
+    font-size: 16px;
+}
+.buttons #burger a:hover{
+    background-color: #776B5D;
+    color: #F3EEEA;
+    transition: 0.3s;
+}
+.buttons #cart a{
+    margin-right: 20px;
+}
+.buttons #cart a img{
+    height: 40px;
+}
+.buttons #cart a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
